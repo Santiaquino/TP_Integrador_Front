@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+.icono {
+  height: 50px;
+}
+
+.section-uno {
+  background: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.5)),
+    url("../img/hawaii.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-burger {
+  background-color: rgb(95, 94, 94);
+}
+
+.img-playa {
+  background-image: url("../img/honolulu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-footer {
+  margin-top: 1rem;
+  background-color: rgb(41, 68, 104);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3rem;
+}
+
+.parrafo-footer {
+  color: whitesmoke;
+  margin: 0;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.button-green {
+  background-color: rgb(135, 197, 20);
+  color: whitesmoke;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+.parrafo-dos {
+  font-size: 0.9rem;
+}
+
+.parrafos-section-tres {
+  font-size: 0.8rem;
+}
+
+.inputs {
+  height: 35px;
+}
+
+.section-uno {
+  height: 500px;
+  position: relative;
+}
+
+.container-conf {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  width: 500px;
+}
+
+.container-conf2 {
+  position: relative;
+}
+
+.container-conf h1 {
+  position: absolute;
+  right: 90px;
+  bottom: 210px;
+}
+
+.container-button {
+  position: absolute;
+  bottom: 0px;
+  right: 90px;
+}
+
+.parrafo-uno {
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 1076px) {
+  .parrafo-footer {
+    font-size: 0.9rem;
+    font-weight: none;
+  }
+  .parrafos-section-tres {
+    font-size: 0.9rem;
+  }
+
+  .icono {
+    height: 60px;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  .section-dos {
+    height: 550px;
+  }
+
+  .section-uno {
+    height: 800px;
+    position: relative;
+  }
+
+  .container-conf {
+    position: absolute;
+    bottom: 200px;
+    right: 50px;
+    width: 600px;
+    height: 300px;
+  }
+
+  .container-conf2 {
+    position: relative;
+  }
+
+  .container-conf h1 {
+    position: absolute;
+    right: 90px;
+    bottom: 220px;
+  }
+
+  .container-button {
+    position: absolute;
+    bottom: 0px;
+    right: 80px;
+  }
+
+  .container-button button {
+    font-size: 1.1rem;
+  }
+
+  .parrafo-uno {
+    font-size: 1rem;
+  }
+}
