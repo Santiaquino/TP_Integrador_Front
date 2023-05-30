@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <title>Comprar tickets</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <a href="../index.html" class="text-decoration-none ms-lg-5">
+          <img
+            src="../assets/img/codoacodo.png"
+            class="icono d-lg-none"
+            alt="imagen del icono de codo a codo"
+          />
+          <span class="text-white">Conf Bs As</span>
+        </a>
+
+        <div class="btn-group d-lg-none">
+          <button
+            class="btn btn-success btn-sm dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Ir
+          </button>
+          <ul class="dropdown-menu bg-dark">
+            <li>
+              <a
+                class="dropdown-item text-secondary fw-bold"
+                href="#section-uno"
+                >La conferencia</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item text-secondary" href="#section-dos"
+                >Los oradores</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item text-secondary" href="#section-tres"
+                >El lugar y la fecha</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item text-secondary" href="#section-cuatro"
+                >Conviertete en orador</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item text-success fw-bold" href="#main"
+                >Comprar tickets</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-none d-lg-block me-5 p-4">
+          <ul class="d-flex m-0">
+            <li class="me-3">
+              <a href="#section-uno" class="nav-link text-secondary button-nav"
+                >La conferencia</a
+              >
+            </li>
+            <li class="me-3">
+              <a href="#section-dos" class="nav-link text-secondary button-nav"
+                >Los oradores</a
+              >
+            </li>
+            <li class="me-3">
+              <a href="#section-tres" class="nav-link text-secondary button-nav"
+                >El lugar y la fecha</a
+              >
+            </li>
+            <li class="me-3">
+              <a href="#section-cuatro" class="nav-link text-white"
+                >Conviertete en orador</a
+              >
+            </li>
+            <li class="me-4">
+              <a href="#main" class="nav-link" style="color: rgb(155, 210, 60)"
+                >Comprar tickets</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="vh-100">
+      <section class="container-fluid mt-5" id="main">
+        <div class="row d-flex justify-content-center flex-nowrap m-1">
+          <div
+            class="col-4 col-md-3 border border-2 border-primary me-1"
+            style="max-width: 18rem"
+          >
+            <div class="card-body p-md-4">
+              <h5 class="card-title text-center m-1">Estudiante</h5>
+              <p class="text-center mt-3">Tienen un descuento</p>
+              <p class="fw-bold text-center">80%</p>
+              <p class="fw-light text-center">*Presentar documentacion</p>
+            </div>
+          </div>
+
+          <div
+            class="col-4 col-md-3 border border-2 border-success me-1"
+            style="max-width: 18rem"
+          >
+            <div class="card-body p-md-4">
+              <h5 class="card-title text-center m-1">Trainee</h5>
+              <p class="text-center mt-3">Tienen un descuento</p>
+              <p class="fw-bold text-center">50%</p>
+              <p class="fw-light text-center">*Presentar documentacion</p>
+            </div>
+          </div>
+
+          <div
+            class="col-4 col-md-3 border border-2 border-warning"
+            style="max-width: 18rem"
+          >
+            <div class="card-body p-md-4">
+              <h5 class="card-title text-center m-1">Junior</h5>
+              <p class="text-center mt-3">Tienen un descuento</p>
+              <p class="fw-bold text-center">15%</p>
+              <p class="fw-light text-center">*Presentar documentacion</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid">
+        <p class="text-center mt-1 mb-1">VENTA</p>
+        <h1 class="text-center mb-4">VALOR DEL TICKET $200</h1>
+        <form class="row g-3 d-flex justify-content-center">
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control"
+              id="inputNombre"
+              placeholder="Nombre"
+            />
+          </div>
+          <div class="col-md-4 mt-4 mt-md-3">
+            <input
+              type="text"
+              class="form-control"
+              id="inputApellido"
+              placeholder="Apellido"
+            />
+          </div>
+          <div class="col-md-8 mt-4">
+            <input
+              type="email"
+              class="form-control"
+              id="inputCorreo"
+              placeholder="Correo"
+            />
+          </div>
+          <div class="d-flex justify-content-center gap-1 mt-4">
+            <div class="col-6 col-md-4">
+              <label for="inputCantidad" class="form-label">Cantidad</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputCantidad"
+                placeholder="cantidad"
+              />
+            </div>
+
+            <div class="col-6 col-md-4">
+              <label for="inputCategoria" class="form-label">Categoria</label>
+              <select id="inputCategoria" class="form-select">
+                <option selected>Estudiante</option>
+                <option>Trainee</option>
+                <option>Junior</option>
+              </select>
+            </div>
+          </div>
+
+          <div
+            class="pagar col-md-8 p-3 rounded mb-4 mt-4 text-primary-emphasis"
+            id="resultado"
+          >
+            Total a Pagar: $
+          </div>
+          <div class="d-flex justify-content-center col-md-8 p-0">
+            <button
+              class="button-green-tickets text-white w-100 rounded me-2"
+              id="buttonBorrar"
+            >
+              Borrar
+            </button>
+            <button
+              class="button-green-tickets w-100 text-white rounded"
+              id="buttonResumen"
+            >
+              Resumen
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div
+        class="container-footer d-flex justify-content-evenly align-items-center p-lg-5"
+      >
+        <a href="" class="parrafo-footer text-decoration-none"
+          >Preguntas frecuentes</a
+        >
+        <a href="" class="parrafo-footer text-decoration-none">Contactanos</a>
+        <a href="" class="parrafo-footer text-decoration-none">Prensa</a>
+        <a href="" class="parrafo-footer text-decoration-none">Conferencias</a>
+        <a href="" class="parrafo-footer text-decoration-none"
+          >Terminos y condiciones</a
+        >
+        <a href="" class="parrafo-footer text-decoration-none">Privacidad</a>
+        <a href="" class="parrafo-footer text-decoration-none">Estudiantes</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

@@ -59,6 +59,11 @@ li {
   border-radius: 5px;
 }
 
+.button-green-tickets {
+  background-color: rgb(155, 210, 60);
+  padding: 0.5rem;
+}
+
 .parrafo-dos {
   font-size: 0.9rem;
 }
@@ -108,11 +113,16 @@ li {
   background-color: rgb(54, 55, 65);
 }
 
+.pagar {
+  background-color: rgb(204, 227, 255);
+  box-shadow: 1px 1px 1px rgb(224, 237, 255);
+}
+
 /* media queries*/
 
 @media screen and (min-width: 1076px) {
   nav {
-    height: 100px;
+    height: 80px;
   }
 
   .parrafo-footer {
