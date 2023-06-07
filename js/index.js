@@ -15,21 +15,21 @@ BUTTON_RESUMEN.addEventListener("click", function (e) {
   }
 
   if (INPUT_CATEGORIA.value === "Estudiante") {
-    let totalPago = INPUT_CANTIDAD.value * 200;
-    let descuento = totalPago * 0.8;
-    RESULTADO.innerHTML = `Total a Pagar: $${totalPago - descuento}`;
+    let total_pago = INPUT_CANTIDAD.value * 200;
+    let descuento = total_pago * 0.8;
+    RESULTADO.innerHTML = `Total a Pagar: $${total_pago - descuento}`;
   }
 
   if (INPUT_CATEGORIA.value === "Trainee") {
-    let totalPago = INPUT_CANTIDAD.value * 200;
-    let descuento = totalPago * 0.5;
-    RESULTADO.innerHTML = `Total a Pagar: $${totalPago - descuento}`;
+    let total_pago = INPUT_CANTIDAD.value * 200;
+    let descuento = total_pago * 0.5;
+    RESULTADO.innerHTML = `Total a Pagar: $${total_pago - descuento}`;
   }
 
   if (INPUT_CATEGORIA.value === "Junior") {
-    let totalPago = INPUT_CANTIDAD.value * 200;
-    let descuento = totalPago * 0.15;
-    RESULTADO.innerHTML = `Total a Pagar: $${totalPago - descuento}`;
+    let total_pago = INPUT_CANTIDAD.value * 200;
+    let descuento = total_pago * 0.15;
+    RESULTADO.innerHTML = `Total a Pagar: $${total_pago - descuento}`;
   }
   console.log({
     nombre: INPUT_NOMBRE.value,
